@@ -51,7 +51,7 @@ public class Frames {
 
         // Retrieve the result text displayed after accepting the alert
         String text2 = driver.findElement(By.xpath("//p[@id='demo']")).getText();
-        System.out.println(text2);
+        System.out.println("Text displayed after accepting the alert is "+text2);
 
         // Verify if the entered name is reflected in the result text
         if (text2.contains("Uma")) {
