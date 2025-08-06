@@ -31,8 +31,8 @@ public class LoginSalesforce {
 
             // 1. Login to Salesforce
             driver.get("https://login.salesforce.com");
-            driver.findElement(By.id("username")).sendKeys("umarajan2124152@agentforce.com"); // Replace with your username
-            driver.findElement(By.id("password")).sendKeys("Uma@testleaf26");          // Replace with your password
+            driver.findElement(By.id("username")).sendKeys("umarajan2124152@agentforce.com"); //  username
+            driver.findElement(By.id("password")).sendKeys("Uma@testleaf26");          // password
             driver.findElement(By.id("Login")).click();
 
             // 2. Open App Launcher (waffle icon)
@@ -48,11 +48,11 @@ public class LoginSalesforce {
             // 4. Click on Accounts tab
             Thread.sleep(5000); // wait for app to load
              driver.findElement(By.xpath("//one-app-nav-bar-item-root[@data-target-selection-name='sfdc:TabDefinition.standard-Account']")).click();
-          //  accountsTab.click();
+       
          // //5. Click on New button
             Thread.sleep(5000);
             driver.findElement(By.xpath("//div[@title='New']")).click();
-           // newButton.click();
+         
 
             // 6. Enter name in Account Name field
             Thread.sleep(3000);
@@ -79,3 +79,4 @@ public class LoginSalesforce {
         
 }
 }
+
