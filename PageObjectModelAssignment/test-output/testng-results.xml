@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-11T17:17:46 GST" name="Default suite" finished-at="2025-08-11T17:18:00 GST" duration-ms="14103">
+    <groups>
+    </groups>
+    <test started-at="2025-08-11T17:17:46 GST" name="Default test" finished-at="2025-08-11T17:18:00 GST" duration-ms="14103">
+      <class name="testcase.TC_002_CreateAccounts">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcase.TC_002_CreateAccounts@1d296da]" started-at="2025-08-11T17:17:46 GST" name="preConditions" finished-at="2025-08-11T17:17:53 GST" duration-ms="6560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="createAccount()[pri:0, instance:testcase.TC_002_CreateAccounts@1d296da]" started-at="2025-08-11T17:17:53 GST" name="createAccount" finished-at="2025-08-11T17:18:00 GST" duration-ms="7267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcase.TC_002_CreateAccounts@1d296da]" started-at="2025-08-11T17:18:00 GST" name="postConditions" finished-at="2025-08-11T17:18:00 GST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- testcase.TC_002_CreateAccounts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
