@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <test thread-count="5" name="Test(failed)" verbose="5">
+    <classes>
+      <class name="testcase.TC_002_Logout_Page">
+        <methods>
+          <include name="setValues"/>
+          <include name="preConditions"/>
+          <include name="postConditions"/>
+          <include name="logout" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- testcase.TC_002_Logout_Page -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-12T19:28:45 GST" name="Suite" finished-at="2025-08-12T19:29:24 GST" duration-ms="39532">
+    <groups>
+    </groups>
+    <test started-at="2025-08-12T19:28:45 GST" name="Test" finished-at="2025-08-12T19:29:24 GST" duration-ms="39532">
+      <class name="testcase.TC_002_Logout_Page">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcase.TC_002_Logout_Page@279fedbd]" started-at="2025-08-12T19:28:45 GST" name="setValues" finished-at="2025-08-12T19:28:45 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcase.TC_002_Logout_Page@279fedbd]" started-at="2025-08-12T19:28:46 GST" name="preConditions" finished-at="2025-08-12T19:28:53 GST" duration-ms="7442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="logout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC_002_Logout_Page@279fedbd]" started-at="2025-08-12T19:28:53 GST" name="logout" data-provider="fetchdata" finished-at="2025-08-12T19:29:07 GST" duration-ms="14200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Umarajan264]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Selenium Automation Tester]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[LeafTaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcase.TC_002_Logout_Page@279fedbd]" started-at="2025-08-12T19:29:07 GST" name="postConditions" finished-at="2025-08-12T19:29:07 GST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcase.TC_002_Logout_Page@279fedbd]" started-at="2025-08-12T19:29:07 GST" name="preConditions" finished-at="2025-08-12T19:29:13 GST" duration-ms="5514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="logout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC_002_Logout_Page@279fedbd]" started-at="2025-08-12T19:29:13 GST" name="logout" data-provider="fetchdata" finished-at="2025-08-12T19:29:24 GST" duration-ms="11097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IshaMahi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Selenium Automation Tester]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TestLeaf Taps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcase.TC_002_Logout_Page@279fedbd]" started-at="2025-08-12T19:29:24 GST" name="postConditions" finished-at="2025-08-12T19:29:24 GST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- testcase.TC_002_Logout_Page -->
+      <class name="testcase.TC_002_CreateAccounts">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcase.TC_002_CreateAccounts@752325ad]" started-at="2025-08-12T19:28:45 GST" name="setValues" finished-at="2025-08-12T19:28:45 GST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcase.TC_002_CreateAccounts@752325ad]" started-at="2025-08-12T19:28:46 GST" name="preConditions" finished-at="2025-08-12T19:28:53 GST" duration-ms="7245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="createAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC_002_CreateAccounts@752325ad]" started-at="2025-08-12T19:28:53 GST" name="createAccount" data-provider="fetchdata" finished-at="2025-08-12T19:29:04 GST" duration-ms="10909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Umarajan264]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Selenium Automation Tester]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[LeafTaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcase.TC_002_CreateAccounts@752325ad]" started-at="2025-08-12T19:29:04 GST" name="postConditions" finished-at="2025-08-12T19:29:04 GST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcase.TC_002_CreateAccounts@752325ad]" started-at="2025-08-12T19:29:04 GST" name="preConditions" finished-at="2025-08-12T19:29:10 GST" duration-ms="5905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="createAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC_002_CreateAccounts@752325ad]" started-at="2025-08-12T19:29:10 GST" name="createAccount" data-provider="fetchdata" finished-at="2025-08-12T19:29:20 GST" duration-ms="10701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IshaMahi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Selenium Automation Tester]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TestLeaf Taps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcase.TC_002_CreateAccounts@752325ad]" started-at="2025-08-12T19:29:20 GST" name="postConditions" finished-at="2025-08-12T19:29:21 GST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- testcase.TC_002_CreateAccounts -->
+      <class name="testcase.TC_002_Login_Page">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcase.TC_002_Login_Page@7a8c8dcf]" started-at="2025-08-12T19:28:45 GST" name="setValues" finished-at="2025-08-12T19:28:45 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcase.TC_002_Login_Page@7a8c8dcf]" started-at="2025-08-12T19:28:46 GST" name="preConditions" finished-at="2025-08-12T19:28:53 GST" duration-ms="7297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC_002_Login_Page@7a8c8dcf]" started-at="2025-08-12T19:28:53 GST" name="login" data-provider="fetchdata" finished-at="2025-08-12T19:28:53 GST" duration-ms="444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcase.TC_002_Login_Page@7a8c8dcf]" started-at="2025-08-12T19:28:53 GST" name="postConditions" finished-at="2025-08-12T19:28:54 GST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcase.TC_002_Login_Page@7a8c8dcf]" started-at="2025-08-12T19:28:54 GST" name="preConditions" finished-at="2025-08-12T19:28:59 GST" duration-ms="5828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC_002_Login_Page@7a8c8dcf]" started-at="2025-08-12T19:28:59 GST" name="login" data-provider="fetchdata" finished-at="2025-08-12T19:29:00 GST" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcase.TC_002_Login_Page@7a8c8dcf]" started-at="2025-08-12T19:29:00 GST" name="postConditions" finished-at="2025-08-12T19:29:00 GST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- testcase.TC_002_Login_Page -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
